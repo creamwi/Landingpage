@@ -1,0 +1,200 @@
+h1 {
+  color: aqua;
+}
+.width200 {
+  width: 200px;
+  height: 200px;
+}
+.background {
+  background: blue;
+}
+.background-image {
+  background-image: url("/image/toy4.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.border {
+  border: 10px solid red;
+  border: 10px dotted red;
+  border: 10px dashed red;
+  border-bottom: 5px solid blue;
+  border-left: 15px dotted violet;
+}
+.margin {
+  margin: 50px 100px 30px 100px;
+  background-color: yellow;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+.padding {
+  padding: 90px;
+  background-color: aqua;
+}
+.width-height {
+  width: 300px;
+  height: 300px;
+  background-color: bisque;
+  width: 20%;
+  height: 30vw;
+  width: 200pt;
+  width: 50cm;
+  max-width: 200px;
+  max-height: 200px;
+}
+.outline {
+  outline: 15px double rebeccapurple;
+  outline-offset: 15px;
+  margin: 30px;
+}
+.text {
+  margin: 100px;
+}
+.text p {
+  text-align: center;
+  text-align: justify;
+}
+.text .left {
+  text-align: left;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration-color: red;
+  text-transform: lowercase;
+}
+.text .right {
+  text-align: right;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-transform: capitalize;
+}
+.text .indent {
+  text-indent: 50px;
+  letter-spacing: 5px;
+  font-size: 20px;
+  line-height: 1.5;
+  word-spacing: 20px;
+  text-shadow: 5px 5px 10px red;
+}
+.font {
+  margin: 100px;
+}
+.font p :first-child {
+}
+.font p:nth-child(2) {
+  font-family: "Mitr";
+  font-size: 2rem;
+  font-style: oblique;
+}
+.link a:link {
+  color: red;
+}
+.link a:visited {
+  color: blueviolet;
+}
+.link a:active {
+  color: wheat;
+}
+.link a:hover {
+  color: orangered;
+  background-color: black;
+}
+.list ul {
+  list-style-type: disc;
+  background: royalblue;
+}
+.list ul li {
+  list-style-position: outside;
+  background-color: cadetblue;
+  margin: 5px;
+  margin-left: 10px;
+}
+.display p:first-child {
+  display: none;
+}
+.display p:nth-child(2) {
+  display: block;
+}
+.display p:nth-child(3) {
+  display: inline;
+}
+.display p:nth-child(4) {
+  display: inline-block;
+}
+.display p:nth-child(5) {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.flex .flex-item:first-child {
+  /* flex: 3; */
+  height: 30px;
+  width: 400px;
+  margin: 5px;
+  background-color: yellow;
+}
+/* .flex .flex-item {
+  flex: 1;
+  height: 30px;
+  margin: 5px;
+  background-color: yellow;
+} */
+.position {
+  position: relative;
+  height: 1000px;
+}
+.position div:first-child {
+  position: static;
+}
+.position div:nth-child(2) {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.position div:nth-child(3) {
+  position: relative;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 100px;
+}
+.position div:nth-child(4) {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.position div:nth-child(5) {
+  position: sticky;
+  top: 100px;
+  left: 0;
+}
+.overflow {
+  overflow: scroll;
+  height: 300px;
+  overflow-x: hidden;
+}
+.overflow .box {
+  height: 1000px;
+  width: 150%;
+  background-color: red;
+}
+.float {
+}
+.float .left {
+  float: left;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+.float .right {
+  float: right;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
